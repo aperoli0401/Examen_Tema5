@@ -1,0 +1,16 @@
+1. Responde brevemente a las siguientes cuestiones:
+
+2. ¿Por qué ItemBiblioteca se ha definido como clase abstracta?
+
+Para que el item de la biblioteca muestre los datos del hijo según lo que el hijo le diga que debe hacer, es decir, realiza la accion que nosostros le digamos 
+pero necesita saber que hijo quiere realizar la acción para así adaptarse a él.
+
+
+3. Explica por qué la relación entre Libro y Autor es composición y no herencia.
+
+No tendría sentido hacer que uno de llos dos herede del padre, de esta manera hacemos que todo libro tenga autor y al revés. De esta manera logramos que ningun 
+libro se almacene sin autor y que todos los autores tengan algún libro.
+
+
+4.  Indica dos ventajas de usar encapsulación en las clases del ejercicio.
+
